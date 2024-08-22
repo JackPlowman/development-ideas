@@ -8,6 +8,8 @@
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
       - [Features](#features)
       - [Tech Stack](#tech-stack)
+    - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
+      - [Features](#features-1)
 
 ## Ideas
 
@@ -25,3 +27,12 @@
   - Go
   - Rust
   - Python UV/Jupyter Notebook
+
+### Pull Request Analysis GitHub Action
+
+- Create a GitHub Action that analyses the pull request
+
+#### Features
+
+- Add PR details based on file changes
+- Adds labels for any languages that are used in the pull request
