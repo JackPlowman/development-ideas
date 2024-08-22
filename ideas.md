@@ -1,10 +1,10 @@
-# Ideas
+# My Ideas
 
 ## Table of Contents
 
-- [Ideas](#ideas)
+- [My Ideas](#my-ideas)
   - [Table of Contents](#table-of-contents)
-  - [Ideas](#ideas-1)
+  - [Ideas](#ideas)
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
       - [Features](#features)
       - [Tech Stack](#tech-stack)
@@ -24,4 +24,3 @@
 - Languages to consider for idea:
   - Go
   - Rust
-
