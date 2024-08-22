@@ -24,3 +24,4 @@
 - Languages to consider for idea:
   - Go
   - Rust
+  - Python UV/Jupyter Notebook
