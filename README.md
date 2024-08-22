@@ -4,4 +4,4 @@ This repository is a place to store my development ideas. Including but not limi
 
 - Ideas for new projects
 - Ideas for new repositories
-- Ideas for new tools learn with these new projects
+- Tools to use for new projects
