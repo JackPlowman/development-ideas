@@ -24,4 +24,3 @@
 - Languages to consider for idea:
   - Go
   - Rust
-  - 
