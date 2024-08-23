@@ -26,7 +26,6 @@ Tech Stack:
   - Rust
   - Python UV/Jupyter Notebook
 
-
 ## Started Ideas
 
 ### Pull Request Analysis GitHub Action
