@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Ideas](#ideas)
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
+    - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
 
@@ -26,6 +27,19 @@ Tech Stack:
   - Rust
   - Python UV/Jupyter Notebook
 
+### Viusalisation of GitHub user/repository
+
+- Create a project that visualises the user/repository
+
+Features:
+
+- Determine the most popular languages used in a GitHub user/repository
+- Create stats of each language
+  - Number of files
+  - Number of lines
+  - Number of commits
+  - Number of contributors
+
 ## Started Ideas
 
 ### Pull Request Analysis GitHub Action
@@ -38,3 +52,7 @@ Features:
 
 - Add PR details based on file changes
 - Adds labels for any languages that are used in the pull request
+
+Tech Stack:
+
+- Go
