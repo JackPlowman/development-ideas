@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Ideas](#ideas)
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
+  - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
 
 ## Ideas
@@ -25,9 +26,13 @@ Tech Stack:
   - Rust
   - Python UV/Jupyter Notebook
 
+## Started Ideas
+
 ### Pull Request Analysis GitHub Action
 
 - Create a GitHub Action that analyses the pull request
+
+[GitHub Repository Link](https://github.com/JackPlowman/pr-analyser)
 
 Features:
 
