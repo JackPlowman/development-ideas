@@ -7,6 +7,7 @@
   - [Ideas](#ideas)
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
     - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
+    - [Implement all (important) sorting algorithms in Python](#implement-all-important-sorting-algorithms-in-python)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
 
@@ -39,6 +40,10 @@ Features:
   - Number of lines
   - Number of commits
   - Number of contributors
+
+### Implement all (important) sorting algorithms in Python
+
+- Create a repository that shows off all sorting algorithms in Python
 
 ## Started Ideas
 
