@@ -1,0 +1,6 @@
+files:
+  - README.md
+  - LICENSE
+  - ideas.md
+aliveStatusCodes:
+  - 200
