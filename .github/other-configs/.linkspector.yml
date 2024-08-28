@@ -1,6 +1,4 @@
-files:
-  - README.md
-  - LICENSE
-  - IDEAS.md
+dirs:
+  - ./
 aliveStatusCodes:
   - 200
