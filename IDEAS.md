@@ -38,7 +38,7 @@ Tech Stack:
 
 - Create a GitHub Action that analyses the pull request
 
-[GitHub Repository Link](https://github.com/JackPlowman/pr-analyser)
+[GitHub Repository Link](https://github.com/JackPlowman/github-pr-analyser)
 
 Features:
 
@@ -53,6 +53,8 @@ Tech Stack:
 
 - Create a project that visualises the user/repository
 
+[GitHub Repository Link](https://github.com/JackPlowman/github-stats)
+
 Features:
 
 - Determine the most popular languages used in a GitHub user/repository
@@ -61,3 +63,8 @@ Features:
   - Number of lines
   - Number of commits
   - Number of contributors
+
+Tech Stack:
+
+- Python
+- GitHub Pages
