@@ -6,4 +6,4 @@ This repository is a place to store my development ideas. Including but not limi
 - Ideas for new repositories
 - Tools to use for new projects
 
-See my [Ideas](IDEAS.md) for more information.
+See my [Ideas](./IDEAS.md) for more information.
