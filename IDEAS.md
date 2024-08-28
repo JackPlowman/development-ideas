@@ -6,10 +6,10 @@
   - [Table of Contents](#table-of-contents)
   - [Ideas](#ideas)
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
-    - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
     - [Implement all (important) sorting algorithms in Python](#implement-all-important-sorting-algorithms-in-python)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
+    - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
 
 ## Ideas
 
@@ -28,19 +28,6 @@ Tech Stack:
   - Rust
   - Python UV/Jupyter Notebook
 
-### Viusalisation of GitHub user/repository
-
-- Create a project that visualises the user/repository
-
-Features:
-
-- Determine the most popular languages used in a GitHub user/repository
-- Create stats of each language
-  - Number of files
-  - Number of lines
-  - Number of commits
-  - Number of contributors
-
 ### Implement all (important) sorting algorithms in Python
 
 - Create a repository that shows off all sorting algorithms in Python
@@ -51,7 +38,7 @@ Features:
 
 - Create a GitHub Action that analyses the pull request
 
-[GitHub Repository Link](https://github.com/JackPlowman/pr-analyser)
+[GitHub Repository Link](https://github.com/JackPlowman/github-pr-analyser)
 
 Features:
 
@@ -61,3 +48,23 @@ Features:
 Tech Stack:
 
 - Go
+
+### Viusalisation of GitHub user/repository
+
+- Create a project that visualises the user/repository
+
+[GitHub Repository Link](https://github.com/JackPlowman/github-stats)
+
+Features:
+
+- Determine the most popular languages used in a GitHub user/repository
+- Create stats of each language
+  - Number of files
+  - Number of lines
+  - Number of commits
+  - Number of contributors
+
+Tech Stack:
+
+- Python
+- GitHub Pages
