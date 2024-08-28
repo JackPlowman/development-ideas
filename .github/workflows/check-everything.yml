@@ -46,3 +46,4 @@ jobs:
           config_file: .github/other-configs/.linkspector.yaml
           reporter: github-pr-review
           fail_on_error: true
+          filter_mode: nofilter
