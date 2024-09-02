@@ -32,6 +32,10 @@ Tech Stack:
 
 - Create a repository that shows off all sorting algorithms in Python
 
+### Tech Radar
+
+list technologies used
+
 ## Started Ideas
 
 ### Pull Request Analysis GitHub Action
