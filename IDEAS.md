@@ -53,7 +53,12 @@ Tech Stack:
 
 - Create a project that visualises the user/repository
 
+Useful Links
+
 [GitHub Repository Link](https://github.com/JackPlowman/github-stats)
+
+
+Add link to GitHub pages
 
 Features:
 
