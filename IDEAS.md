@@ -69,7 +69,7 @@ Tech Stack:
 
 - Python
   - Polars
-- Typescript
+- TypeScript
   - Astro
   - Shadcn-ui
 - GitHub Pages
