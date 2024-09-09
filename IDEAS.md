@@ -33,8 +33,6 @@ Tech Stack:
 
 - Create a repository that shows off all sorting algorithms in Python
 
-
-
 ## Started Ideas
 
 ### Pull Request Analysis GitHub Action
