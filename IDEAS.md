@@ -68,6 +68,10 @@ Features:
 Tech Stack:
 
 - Python
+  - Polars
+- TypeScript
+  - Astro
+  - Shadcn-ui
 - GitHub Pages
 
 ### Tech Radar
