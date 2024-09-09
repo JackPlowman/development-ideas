@@ -10,6 +10,7 @@
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
     - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
+    - [Tech Radar](#tech-radar)
 
 ## Ideas
 
@@ -32,9 +33,7 @@ Tech Stack:
 
 - Create a repository that shows off all sorting algorithms in Python
 
-### Tech Radar
 
-list technologies used
 
 ## Started Ideas
 
@@ -71,4 +70,16 @@ Features:
 Tech Stack:
 
 - Python
+- GitHub Pages
+
+### Tech Radar
+
+- Create a Tech Radar to map out technologies, tools, techniques, and platforms.
+
+[GitHub Repository Link](https://github.com/JackPlowman/tech-radar)<br>
+[GitHub Pages Link](https://jackplowman.github.io/tech-radar/)
+
+Tech Stack:
+
+- HTML/CSS/JavaScript
 - GitHub Pages
