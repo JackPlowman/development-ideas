@@ -33,6 +33,10 @@ Tech Stack:
 
 - Create a repository that shows off all sorting algorithms in Python
 
+### Website,
+
+Build a website using NextJS/Vercel
+
 ## Started Ideas
 
 ### Pull Request Analysis GitHub Action
