@@ -7,6 +7,7 @@
   - [Ideas](#ideas)
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
     - [Implement all (important) sorting algorithms in Python](#implement-all-important-sorting-algorithms-in-python)
+    - [Add a status page for my projects which are deployed to GitHub Pages](#add-a-status-page-for-my-projects-which-are-deployed-to-github-pages)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
     - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
@@ -35,6 +36,13 @@ Tech Stack:
 ### Implement all (important) sorting algorithms in Python
 
 - Create a repository that shows off all sorting algorithms in Python
+
+### Add a status page for my projects which are deployed to GitHub Pages
+
+Features:
+
+- Shows the status of my projects
+- Send a notification when a project not available
 
 ## Started Ideas
 
