@@ -10,6 +10,7 @@
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
     - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
+  - [Completed Ideas](#completed-ideas)
     - [Tech Radar](#tech-radar)
 
 ## Ideas
@@ -73,6 +74,8 @@ Tech Stack:
   - Astro
   - Shadcn-ui
 - GitHub Pages
+
+## Completed Ideas
 
 ### Tech Radar
 
