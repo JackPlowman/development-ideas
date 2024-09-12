@@ -15,6 +15,8 @@
 
 ## Ideas
 
+This is a list of ideas that I have for myself to work on.
+
 ### Repository Visualisation GitHub Action
 
 - Create a GitHub Action that visualises the repository structure
@@ -35,6 +37,8 @@ Tech Stack:
 - Create a repository that shows off all sorting algorithms in Python
 
 ## Started Ideas
+
+These ideas have been initiated but are not yet fully developed enough to be simply maintained.
 
 ### Pull Request Analysis GitHub Action
 
@@ -76,6 +80,8 @@ Tech Stack:
 - GitHub Pages
 
 ## Completed Ideas
+
+These ideas have been largely developed and are currently being maintained.
 
 ### Tech Radar
 
