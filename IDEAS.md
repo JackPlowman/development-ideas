@@ -8,9 +8,10 @@
     - [Repository Visualisation GitHub Action](#repository-visualisation-github-action)
     - [Implement all (important) sorting algorithms in Python](#implement-all-important-sorting-algorithms-in-python)
     - [Add a status page for my projects which are deployed to GitHub Pages](#add-a-status-page-for-my-projects-which-are-deployed-to-github-pages)
+    - [GitHub Branch Analysis GitHub Action](#github-branch-analysis-github-action)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
-    - [Viusalisation of GitHub user/repository](#viusalisation-of-github-userrepository)
+    - [Dashboard for GitHub user/repository](#dashboard-for-github-userrepository)
   - [Completed Ideas](#completed-ideas)
     - [Tech Radar](#tech-radar)
 
@@ -20,11 +21,13 @@ This is a list of ideas that I have for myself to work on.
 
 ### Repository Visualisation GitHub Action
 
-- Create a GitHub Action that visualises the repository structure
+- Create a GitHub Action that visualises the repository structure using a diagram. Similar to [repo-visualizer](https://github.com/githubocto/repo-visualizer).
 
 Features:
 
 - Shows the repository structure
+- Link to each file
+- Image will be SVG
 
 Tech Stack:
 
@@ -44,6 +47,10 @@ Features:
 - Shows the status of my projects
 - Send a notification when a project not available
 
+### GitHub Branch Analysis GitHub Action
+
+- Create a GitHub Action that analyses the branch and creates a report
+
 ## Started Ideas
 
 These ideas have been initiated but are not yet fully developed enough to be simply maintained.
@@ -57,15 +64,14 @@ These ideas have been initiated but are not yet fully developed enough to be sim
 Features:
 
 - Add PR details based on file changes
-- Adds labels for any languages that are used in the pull request
 
 Tech Stack:
 
 - Go
 
-### Viusalisation of GitHub user/repository
+### Dashboard for GitHub user/repository
 
-- Create a project that visualises the user/repository
+- Create a project that visualises the user/repository GitHub statistics
 
 [GitHub Repository Link](https://github.com/JackPlowman/github-stats)
 
@@ -83,7 +89,8 @@ Tech Stack:
 - Python
   - Polars
 - TypeScript
-  - Astro
+  - Next.js
+  - React
   - Shadcn-ui
 - GitHub Pages
 
