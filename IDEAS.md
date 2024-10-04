@@ -73,7 +73,11 @@ Tech Stack:
 
 - Create a project that visualises the user/repository GitHub statistics
 
-[GitHub Repository Link](https://github.com/JackPlowman/github-stats)
+Prototype:
+[Prototype GitHub Repository](https://jackplowman.github.io/github-stats-prototype/)
+
+Repositories:
+[Analysis Repository](https://github.com/JackPlowman/github-stats-analyser) | [Dashboard Repository](https://github.com/JackPlowman/github-stats)
 
 Features:
 
