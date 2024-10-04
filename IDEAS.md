@@ -87,7 +87,7 @@ Features:
 Tech Stack:
 
 - Python
-  - Polars
+  - Pandas
 - TypeScript
   - Next.js
   - React
