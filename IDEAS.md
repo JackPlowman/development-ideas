@@ -1,5 +1,11 @@
 # My Ideas
 
+## Rules
+
+Ideas should be listed with a description of the idea and the likely technology for the idea. If the idea is large or well thought out features of the idea should be listed.
+
+once an idea had been started then update the idea with an confirmed details and any important links
+
 ## Table of Contents
 
 - [My Ideas](#my-ideas)
