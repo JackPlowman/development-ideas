@@ -9,6 +9,7 @@
     - [Implement all (important) sorting algorithms in Python](#implement-all-important-sorting-algorithms-in-python)
     - [Add a status page for my projects which are deployed to GitHub Pages](#add-a-status-page-for-my-projects-which-are-deployed-to-github-pages)
     - [GitHub Branch Analysis GitHub Action](#github-branch-analysis-github-action)
+    - [Detect project technologies and list all currently used in active repositories](#detect-project-technologies-and-list-all-currently-used-in-active-repositories)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
     - [Dashboard for GitHub user/repository](#dashboard-for-github-userrepository)
@@ -50,6 +51,10 @@ Features:
 ### GitHub Branch Analysis GitHub Action
 
 - Create a GitHub Action that analyses the branch and creates a report
+
+### Detect project technologies and list all currently used in active repositories
+
+- Create a GitHub Action that analyses the repositories and creates a report with the technologies used
 
 ## Started Ideas
 
