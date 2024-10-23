@@ -15,6 +15,7 @@
     - [Dashboard for GitHub user/repository](#dashboard-for-github-userrepository)
   - [Completed Ideas](#completed-ideas)
     - [Tech Radar](#tech-radar)
+    - [Screenshot Mailinator Email](#screenshot-mailinator-email)
 
 ## Ideas
 
@@ -118,3 +119,10 @@ Tech Stack:
 
 - HTML/CSS/JavaScript
 - GitHub Pages
+
+### Screenshot Mailinator Email
+
+- Create a screenshot of an email on the mailinator site
+- Screenshot the entire email including subject
+
+[GitHub Repository Link](https://github.com/JackPlowman/screenshot_mailinator_email)
