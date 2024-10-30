@@ -10,6 +10,7 @@
     - [Add a status page for my projects which are deployed to GitHub Pages](#add-a-status-page-for-my-projects-which-are-deployed-to-github-pages)
     - [GitHub Branch Analysis GitHub Action](#github-branch-analysis-github-action)
     - [Detect project technologies and list all currently used in active repositories](#detect-project-technologies-and-list-all-currently-used-in-active-repositories)
+    - [Create a Chrome Extension that spell checks code in a GitHub Pull Request](#create-a-chrome-extension-that-spell-checks-code-in-a-github-pull-request)
   - [Started Ideas](#started-ideas)
     - [Pull Request Analysis GitHub Action](#pull-request-analysis-github-action)
     - [Dashboard for GitHub user/repository](#dashboard-for-github-userrepository)
@@ -56,6 +57,14 @@ Features:
 ### Detect project technologies and list all currently used in active repositories
 
 - Create a GitHub Action that analyses the repositories and creates a report with the technologies used
+
+### Create a Chrome Extension that spell checks code in a GitHub Pull Request
+
+Features:
+
+- Create a Chrome Extension that spell checks code in a GitHub Pull Request
+- Should work with many languages
+- Work for both code created by me and code created by others
 
 ## Started Ideas
 
