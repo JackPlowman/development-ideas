@@ -58,6 +58,8 @@ Features:
 
 - Create a GitHub Action that analyses the repositories and creates a report with the technologies used
 
+[GitHub Repository](https://github.com/JackPlowman/tech-detective)
+
 ### Create a Chrome Extension that spell checks code in a GitHub Pull Request
 
 Features:
@@ -65,6 +67,8 @@ Features:
 - Create a Chrome Extension that spell checks code in a GitHub Pull Request
 - Should work with many languages
 - Work for both code created by me and code created by others
+
+[GitHub Repository](https://github.com/JackPlowman/pr-proofreader)
 
 ## Started Ideas
 
@@ -74,7 +78,7 @@ These ideas have been initiated but are not yet fully developed enough to be sim
 
 - Create a GitHub Action that analyses the pull request
 
-[GitHub Repository Link](https://github.com/JackPlowman/github-pr-analyser)
+[GitHub Repository](https://github.com/JackPlowman/github-pr-analyser)
 
 Features:
 
@@ -121,8 +125,8 @@ These ideas have been largely developed and are currently being maintained.
 
 - Create a Tech Radar to map out technologies, tools, techniques, and platforms.
 
-[GitHub Repository Link](https://github.com/JackPlowman/tech-radar)<br>
-[GitHub Pages Link](https://jackplowman.github.io/tech-radar/)
+[GitHub Repository](https://github.com/JackPlowman/tech-radar)<br>
+[GitHub Pages](https://jackplowman.github.io/tech-radar/)
 
 Tech Stack:
 
@@ -134,4 +138,4 @@ Tech Stack:
 - Create a screenshot of an email on the mailinator site
 - Screenshot the entire email including subject
 
-[GitHub Repository Link](https://github.com/JackPlowman/screenshot_mailinator_email)
+[GitHub Repository](https://github.com/JackPlowman/screenshot_mailinator_email)
