@@ -108,6 +108,7 @@ Tech Stack:
 [GitHub Repository](https://github.com/JackPlowman/tech-detective)
 
 Tech Stack:
+
 - TypeScript
   - Astro
 - Python
@@ -124,6 +125,7 @@ Features:
 [GitHub Repository](https://github.com/JackPlowman/pr-proofreader)
 
 Tech Stack:
+
 - JavaScript
 
 ## Completed Ideas
