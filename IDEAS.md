@@ -14,6 +14,7 @@
     - [Dashboard for GitHub user/repository](#dashboard-for-github-userrepository)
     - [Detect project technologies and list all currently used in active repositories](#detect-project-technologies-and-list-all-currently-used-in-active-repositories)
     - [Create a Chrome Extension that spell checks code in a GitHub Pull Request](#create-a-chrome-extension-that-spell-checks-code-in-a-github-pull-request)
+    - [Create an RSS reader for GitHub blog posts](#create-an-rss-reader-for-github-blog-posts)
   - [Completed Ideas](#completed-ideas)
     - [Tech Radar](#tech-radar)
     - [Screenshot Mailinator Email](#screenshot-mailinator-email)
@@ -127,6 +128,21 @@ Features:
 Tech Stack:
 
 - JavaScript
+
+### Create an RSS reader for GitHub blog posts
+
+[GitHub Repository](https://github.com/JackPlowman/GitHubPulse)
+
+Features:
+
+- Create an RSS reader that reads the GitHub blog posts
+- Should be able to read the blog posts and display them in a readable format
+- Show when new blog posts are available
+- Show that a blog post has been read
+
+Tech Stack:
+
+- Swift
 
 ## Completed Ideas
 
