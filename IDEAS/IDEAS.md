@@ -33,4 +33,3 @@ Features:
 ## GitHub Branch Analysis GitHub Action
 
 - Create a GitHub Action that analyses the branch and creates a report
-
