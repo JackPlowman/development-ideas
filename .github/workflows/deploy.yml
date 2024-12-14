@@ -5,10 +5,7 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+permissions: {}
 
 jobs:
   deploy-github-pages:
@@ -17,6 +14,10 @@ jobs:
     environment:
       name: github-pages
     timeout-minutes: 60
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
