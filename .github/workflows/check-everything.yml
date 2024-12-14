@@ -8,13 +8,14 @@ on:
 
 permissions:
   contents: read
-  packages: read
-  statuses: write
 
 jobs:
   check-code-quality:
     name: Check Code Quality
     runs-on: ubuntu-latest
+    permissions:
+      packages: read
+      statuses: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.2
