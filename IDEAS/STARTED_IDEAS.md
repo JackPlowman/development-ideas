@@ -87,12 +87,12 @@ Tech Stack:
 
 - Swift
 
-## CLI Tool to Upgrade All Python Dependencies
+## Command-line tool to Upgrade All Python Dependencies
 
 [depup Repository](https://github.com/JackPlowman/depup)
 
-
 Features:
+
 - Able to upgrade all Python dependencies in a project to the latest version of each dependency.
 - Able to upgrade pyproject.toml and scripts in the project to the latest version of each dependency.
 - Handle if repository uses Poetry or UV.
