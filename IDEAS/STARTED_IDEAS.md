@@ -53,9 +53,8 @@ Tech Stack:
 
 Tech Stack:
 
-- TypeScript
-  - Astro
 - Python
+- Markdown
 - GitHub Pages
 
 ## Create a Chrome Extension that spell checks code in a GitHub Pull Request
