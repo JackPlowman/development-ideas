@@ -16,7 +16,6 @@ jobs:
     name: Check Code Quality
     runs-on: ubuntu-latest
     permissions:
-      packages: read
       statuses: write
     steps:
       - name: Checkout Repository
@@ -30,7 +29,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LINTER_RULES_PATH: .github/super-linter-configs
+          LINTER_RULES_PATH: .github/super-linter-configurations
           YAML_ERROR_ON_WARNING: true
 
   check-markdown-links:
@@ -46,7 +45,7 @@ jobs:
         uses: UmbrellaDocs/action-linkspector@v1.2.5
         with:
           github_token: ${{ secrets.GH_TOKEN }}
-          config_file: .github/other-configs/.linkspector.yml
+          config_file: .github/other-configurations/.linkspector.yml
           reporter: github-pr-review
           fail_on_error: true
           filter_mode: nofilter
@@ -106,6 +105,6 @@ jobs:
         with:
           languages: actions
           queries: security-and-quality
-          config-file: .github/other-configs/codeql-config.yml
+          config-file: .github/other-configurations/codeql-config.yml
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3.28.10
