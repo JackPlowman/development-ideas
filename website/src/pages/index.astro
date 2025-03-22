@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { fetchMarkdownContent } from '../utils';
+
+// Fetch IDEAS.md from GitHub raw URL
+const { htmlContent: ideasHtml, error: ideasError } = await fetchMarkdownContent(
+  'https://raw.githubusercontent.com/JackPlowman/development-ideas/refs/heads/main/IDEAS/IDEAS.md'
+);
+const { htmlContent: startedIdeasHtml, error: startedIdeasError } = await fetchMarkdownContent(
+  'https://raw.githubusercontent.com/JackPlowman/development-ideas/refs/heads/main/IDEAS/STARTED_IDEAS.md'
+);
+const { htmlContent: completedIdeasHtml, error: completedIdeasError } = await fetchMarkdownContent(
+  'https://raw.githubusercontent.com/JackPlowman/development-ideas/refs/heads/main/IDEAS/COMPLETED_IDEAS.md'
+);
+---
+<Layout>
+	<main class="container mx-auto px-4 py-8">
+		<h1 class="text-3xl font-bold mb-6">Development Ideas</h1>
+		<div class="prose prose-lg max-w-none">
+			{ideasError ? (
+				<div class="error-message text-red-600">{ideasError}</div>
+			) : (
+				<div set:html={ideasHtml} />
+			)}
+		</div>
+    <div class="prose prose-lg max-w-none">
+      {startedIdeasError ? (
+        <div class="error-message text-red-600">{startedIdeasError}</div>
+      ) : (
+        <div set:html={startedIdeasHtml} />
+      )}
+    </div>
+    <div class="prose prose-lg max-w-none">
+      {completedIdeasError ? (
+        <div class="error-message text-red-600">{completedIdeasError}</div>
+      ) : (
+        <div set:html={completedIdeasHtml} />
+      )}
+    </div>
+	</main>
+</Layout>
+
+<style>
+	.container {
+		max-width: 800px;
+	}
+	.prose h2 {
+		margin-top: 2rem;
+		font-weight: 600;
+	}
+	.prose ul {
+		list-style-type: disc;
+		padding-left: 1.5rem;
+	}
+</style>
