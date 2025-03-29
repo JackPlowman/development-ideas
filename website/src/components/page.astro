@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { fetchMarkdownContent } from '../utils';
+
+// Fetch IDEAS.md from GitHub raw URL
+const { htmlContent: ideasHtml, error } = await fetchMarkdownContent(
+  'https://raw.githubusercontent.com/JackPlowman/development-ideas/refs/heads/main/IDEAS/IDEAS.md'
+);
+---
+
+<Layout>
+	<main class="container mx-auto px-4 py-8">
+		<h1 class="text-3xl font-bold mb-6">Development Ideas</h1>
+		<div class="prose prose-lg max-w-none">
+			{error ? (
+				<div class="error-message text-red-600">{error}</div>
+			) : (
+				<div set:html={ideasHtml} />
+			)}
+		</div>
+	</main>
+</Layout>
+
+<style>
+	.container {
+		max-width: 800px;
+	}
+	.prose h2 {
+		margin-top: 2rem;
+		font-weight: 600;
+	}
+	.prose ul {
+		list-style-type: disc;
+		padding-left: 1.5rem;
+	}
+</style>
