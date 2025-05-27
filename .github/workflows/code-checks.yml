@@ -42,21 +42,14 @@ jobs:
     secrets:
       workflow_github_token: ${{ secrets.GITHUB_TOKEN }}
 
-  run-codeql-analysis:
+  codeql-checks:
     name: CodeQL Analysis
-    runs-on: ubuntu-latest
     permissions:
+      contents: read
       security-events: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@60168efe1c415ce0f5521ea06d5c2062adbeed1b # v3.28.17
-        with:
-          languages: actions
-          queries: security-and-quality
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@60168efe1c415ce0f5521ea06d5c2062adbeed1b # v3.28.17
+    strategy:
+      matrix:
+        language: [actions]
+    uses: JackPlowman/reusable-workflows/.github/workflows/codeql-analysis.yml@72df376b6d16d40834a212c93d2869295e4d9b39 # v2025.05.24.02
+    with:
+      language: ${{ matrix.language }}
