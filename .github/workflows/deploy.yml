@@ -19,9 +19,8 @@ jobs:
       name: github-pages
     timeout-minutes: 60
     permissions:
-      contents: write
-      pages: write
-      id-token: write
+      pages: write # To deploy to GitHub Pages
+      id-token: write # To authenticate with GitHub Actions
     steps:
       - name: Checkout Repository
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
