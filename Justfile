@@ -64,7 +64,7 @@ pinact-run:
 
 # Run pinact checking
 pinact-check:
-    pinact run --verify --check
+    pinact run --verify-comment --check
 
 # Run pinact update
 pinact-update:
